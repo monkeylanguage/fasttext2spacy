@@ -16,6 +16,6 @@ Voila, now you are able to link this model to the spaCy (example below) ;)
 ### Linking
 You have multiple options how to link the generated model (from above) to spaCy. You have to install the model by pip and link it:
 ```
-pip3 install [model_location] -> ie pip3 install **cs.tar.gz**
-python3 -m spacy link [name_of_that_tar] [lang] -> ie python3 -m spacy link **cs** cs
+pip3 install [model_location] -> ie pip3 install cs.tar.gz
+python3 -m spacy link [name_of_that_tar] [lang] -> ie python3 -m spacy link cs cs
 ```
